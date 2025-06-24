@@ -54,3 +54,16 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
     
 ![Screenshot 2025-06-24 164910](https://github.com/user-attachments/assets/f6815f87-e935-41de-a32f-3db170f27b42)
 
+<br />
+
+ - At the end of the page, make sure to click the check box, "I confirm I have an eligible Windows 10/11 license"
+ - Click Review + Create
+    
+![image](https://github.com/user-attachments/assets/7c8fb079-e17d-45a9-9388-33f6c62d93f9)
+
+<br />
+
+ - Give it a second to load and validate everything. Once it is passed, click create.
+    
+![image](https://github.com/user-attachments/assets/002ce353-6e79-48d8-8b59-243ad445423b)
+

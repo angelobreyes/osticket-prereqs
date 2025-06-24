@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+Welcome to this osTicket tutorial! Here, we will outline the prerequisites and installation of the open-source help desk ticketing system.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -18,11 +18,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Enable IIS (Internet Information Services) in Windows with CGI (Common Gateway Interface)
+- Install PHP Manager for IIS
+- Install Rewrite Module
+- Install Visual C++ Redistributable
+- Install MySQL
 
 <h2>Installation Steps</h2>
 

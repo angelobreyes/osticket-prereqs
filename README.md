@@ -23,14 +23,15 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 - Install Rewrite Module
 - Install Visual C++ Redistributable
 - Install MySQL
+- Install HeidiSQL
 
 <h2>Installation Steps</h2>
+<b>1. Create a Windows 10 Virtual Machine via Microsoft Azure</b>
+
+-![1](https://github.com/user-attachments/assets/aeb35abd-77df-46e3-a2ba-c30ebc7e75e7)
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go to the homepage of Microsoft Azure > click the search bar > type virtual machines and click
 </p>
 <br />
 

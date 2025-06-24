@@ -26,27 +26,31 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 - Install HeidiSQL
 
 <h2>Installation Steps</h2>
-<b>1. Create a Windows 10 Virtual Machine via Microsoft Azure</b>
+<h3>1. Create a Windows 10 Virtual Machine via Microsoft Azure</h3>
+ 
+   - Go to Microsoft Azure Portal > click the search bar > type virtual machines and click Virtual Machines.
+    
+![1](https://github.com/user-attachments/assets/aeb35abd-77df-46e3-a2ba-c30ebc7e75e7)
 
--![1](https://github.com/user-attachments/assets/aeb35abd-77df-46e3-a2ba-c30ebc7e75e7)
+<br />
+ 
+   - On the Virtual Machines page, click create and choose Virtual Machine. (You can also use the blue create button near the center of the page.)
+    
+![Screenshot 2025-06-24 161911](https://github.com/user-attachments/assets/84663978-487e-4357-b5c5-453b74c2ed75)
 
-<p>
-Go to the homepage of Microsoft Azure > click the search bar > type virtual machines and click
-</p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+ - On Virtual Machine Name, type in osTicket-vm (Azure will create a resource group by default if you haven't created one)
+ - Region will depend on your location and will be set automatically (if not, set it to your region)
+ - Scroll down to the next section
+    
+![Screenshot 2025-06-24 162533](https://github.com/user-attachments/assets/14deba80-423e-479b-8365-83ee894b28b0)
+
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+ - For Image, choose Windows 10 Pro, version 22H2
+ - For Size, choose at least 4 vcpus to ensure a smooth performing VM
+ - Fill in your own username and password (this will be used to log into the VM) 
+    
+![Screenshot 2025-06-24 164910](https://github.com/user-attachments/assets/f6815f87-e935-41de-a32f-3db170f27b42)
+

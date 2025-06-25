@@ -170,7 +170,7 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 
 <br />
  
- - Wait for the changes to apply and click close
+ - Wait for the changes to apply and click Close
 
 ![image](https://github.com/user-attachments/assets/7ba197a1-5948-4c40-8fb8-89be8f6023c6)
 
@@ -184,7 +184,7 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 
 <br />
 
-- Within PHP Manager setup, click next > click I agree then next > wait for installion to finish then click close
+- Within PHP Manager setup, click Next > click I agree then Next > wait for installion to finish then click Close
 
 ![image](https://github.com/user-attachments/assets/499fe4d1-9aa8-4fb1-999c-cf2b5100861c)
 
@@ -198,7 +198,7 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 
 <br />
 
- - Within the Rewrite Module setup, click I accept the terms > install > finish
+ - Within the Rewrite Module setup, click I accept the terms > Install > Finish
 
 ![image](https://github.com/user-attachments/assets/98010e9b-5324-472b-ac46-f0dc2452e9ea)
 
@@ -212,7 +212,7 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
  
     - To create this, go to file explorer (a folder icon on your taskbar) and click
 
-    - Within file explorer, click This PC > click Windows (C:) drive > right click on any blank space > hover to new > click folder > name folder PHP
+    - Within file explorer, click This PC > click Windows (C:) drive > right click on any blank space > hover to New > click folder > name folder PHP
 
 
 ![image](https://github.com/user-attachments/assets/343781ea-5bc4-4947-8b0d-7d6fc5ce489a)
@@ -225,19 +225,73 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 
 <br />
 
+  - From the “osTicket-Installation-Files” folder, extract PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
   
+    - To extract, right click on the folder > click Extract All > click Browse > click This PC and Windows C: > click PHP folder then Select Folder > click Extract
+
+![image](https://github.com/user-attachments/assets/a88edf2f-6c15-43bd-8af2-134f86778879)
+
+![image](https://github.com/user-attachments/assets/a365492b-371e-4f4f-a74c-e4f735babe20)
+
+![image](https://github.com/user-attachments/assets/77664163-274b-43e0-94ce-0e655fc02dd6)
+
+![image](https://github.com/user-attachments/assets/daae7a0c-68b5-435c-b5f4-2039994559d3)
+
+![image](https://github.com/user-attachments/assets/8c509c52-222d-4150-ab9a-6af04480d601)
+
+<br />
+
+<h3>7. Install Visual C ++ Redistributable </h3>
+
+ - From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe.
+
+![image](https://github.com/user-attachments/assets/0ed94742-4b4a-4fcb-aea0-79a95533e8fd)
+
+ - Click I agree then Install > Close when it's done installing.
+
+![image](https://github.com/user-attachments/assets/f767e277-103c-41ad-ad8f-43a48f73b627)
+
+<br />
+
+<h3>8. Install MySQL </h3>
+
+ - From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+
+![image](https://github.com/user-attachments/assets/e450ebf7-26f7-4856-8960-5cff775d9256)
+
+ - Click Next > I accept and next > click Typical and Install > click Finish
+
+![image](https://github.com/user-attachments/assets/c8f8a20a-2518-4662-8668-8e403c828614)
+
+![image](https://github.com/user-attachments/assets/744c7b58-b453-44e6-832a-37855e3e69f9)
+
+![image](https://github.com/user-attachments/assets/a87486e4-41b9-4748-8751-4cc5327c414c)
+
+![image](https://github.com/user-attachments/assets/0efcf9e6-bf53-41f0-beeb-d7e2331109c0)
+
+<br />
+
+ - Within MySQL Server Instance setup, click Next > choose Standard Configuration the Next > click Next >  type root on password for both fields and click Next > click Execute
+
+![image](https://github.com/user-attachments/assets/9292a71e-081b-4ca0-b3ad-3dc3c9db93ed)
+
+![image](https://github.com/user-attachments/assets/d97e92b4-909f-49a0-b4b3-3fb3b4882ba1)
+
+![image](https://github.com/user-attachments/assets/80d1a449-9e05-46a5-9c53-ba4caed43663)
+
+![image](https://github.com/user-attachments/assets/31832317-a378-4bcf-919a-09fe0d968bc4)
+
+![image](https://github.com/user-attachments/assets/de2fa810-4997-4819-aa60-fc81a5c49fc5)
+
+<br />
+
+ - Press Finish
+
+![image](https://github.com/user-attachments/assets/668f00f5-cf0a-4be5-b506-4a4ca62e03a1)
+
+<br />
 
 
-From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
-
-From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe.
-
-From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
-Typical Setup ->
-Launch Configuration Wizard (after install) ->
-Standard Configuration ->
-Username: root
-Password: root
 
 Open IIS as an Admin
 

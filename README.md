@@ -65,5 +65,20 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 
  - Give it a second to load and validate everything. Once it is passed, click create.
     
-![image](https://github.com/user-attachments/assets/002ce353-6e79-48d8-8b59-243ad445423b)
+![image](https://github.com/user-attachments/assets/b89d1f77-bdf7-42ab-b9db-5854ba4b97d8)
+
+<br />
+
+ - After creating the virtual machine, wait until your deployment is complete.
+    
+![image](https://github.com/user-attachments/assets/6d8a30d7-fb9f-4f2b-9f2d-f8440ae2b137)
+
+<br />
+
+![image](https://github.com/user-attachments/assets/08bc2b6a-59f5-4962-900d-e8a035f8a6f6)
+
+<br />
+
+
+
 

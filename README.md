@@ -144,33 +144,47 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 
 <h3>3. Install / Enable IIS in Windows WITH CGI</h3>
      
- - World Wide Web Services -> Application Development Features -> [X] CGI
-  - To enable IIS with CGI, press windows key, type Control Panel and click
+- To enable IIS with CGI, press windows key, type Control Panel and click
 
 ![image](https://github.com/user-attachments/assets/7fefe0b9-757e-4c2f-a87c-6574e6d0d119)
+ 
+<br />
  
  - Within Control Panel, click Programs
 
 ![image](https://github.com/user-attachments/assets/b2db613b-b49c-4a2c-b7fe-fdaca4ba62b1)
 
+<br />
+ 
  - Under Programs and Features, click Turn Windows Features on or off
 
 ![image](https://github.com/user-attachments/assets/5a357d23-5ae1-4f7e-bf08-9b77e2dd0655)
 
+<br />
+ 
  - Within Windows Features, look for/click Internet Information Services  > look for/click Application Development Features > look for/ click CGI checkbox and click OK
 
 ![image](https://github.com/user-attachments/assets/22874b5c-4f26-4515-905b-5bc2316009f1)
 
 ![image](https://github.com/user-attachments/assets/afb5ae39-6eaf-44d4-b482-852f586a5be2)
 
+<br />
+ 
  - Wait for the changes to apply and click close
 
 ![image](https://github.com/user-attachments/assets/7ba197a1-5948-4c40-8fb8-89be8f6023c6)
 
 <br />
 
+<h3>4. Install PHP manager for IIS</h3>
 
-From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+ - From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+
+
+
+
+
+
 
 From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi)
 

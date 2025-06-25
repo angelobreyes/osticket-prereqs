@@ -123,3 +123,121 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 ![image](https://github.com/user-attachments/assets/b21b8b1f-ce64-4f3b-9b7c-29b4b2cff153)
 
 <br />
+
+ - Inside the VM , download the [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and unzip the folder.
+  - To download, click the link above, click download anyway and wait for it to finish downloading. Once it's done, click the file to open.
+
+![image](https://github.com/user-attachments/assets/bcf8318f-a8b7-4a31-8ead-08d7c056eb89)
+
+<br />
+  
+  -  By default, it should go to your downloads folder, left click osTicket-Installation-Files , choose extract all and click extract.
+  -  After extracting, you should have 2 files. 1 zip folder and a regular folder with the same names. You can delete the zip folder if you want.
+
+![image](https://github.com/user-attachments/assets/ef6ebf85-c58f-4f36-a58f-f3fdb9ecf9e1)
+
+![image](https://github.com/user-attachments/assets/39ccdc0d-e8c3-4d25-9b1d-5a5c1336db6c)
+
+![image](https://github.com/user-attachments/assets/2524255b-3458-4c9f-81f5-577a7143de6e)
+
+<br />
+
+<h3>3. Install / Enable IIS in Windows WITH CGI</h3>
+     
+ - World Wide Web Services -> Application Development Features -> [X] CGI
+  - To enable IIS with CGI, press windows key, type Control Panel and click
+
+![image](https://github.com/user-attachments/assets/7fefe0b9-757e-4c2f-a87c-6574e6d0d119)
+ 
+ - Within Control Panel, click Programs
+
+![image](https://github.com/user-attachments/assets/b2db613b-b49c-4a2c-b7fe-fdaca4ba62b1)
+
+ - Under Programs and Features, click Turn Windows Features on or off
+
+![image](https://github.com/user-attachments/assets/5a357d23-5ae1-4f7e-bf08-9b77e2dd0655)
+
+ - Within Windows Features, look for/click Internet Information Services  > look for/click Application Development Features > look for/ click CGI checkbox and click OK
+
+![image](https://github.com/user-attachments/assets/22874b5c-4f26-4515-905b-5bc2316009f1)
+
+![image](https://github.com/user-attachments/assets/afb5ae39-6eaf-44d4-b482-852f586a5be2)
+
+ - Wait for the changes to apply and click close
+
+![image](https://github.com/user-attachments/assets/7ba197a1-5948-4c40-8fb8-89be8f6023c6)
+
+<br />
+
+
+From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+
+From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi)
+
+Create the directory C:\PHP
+
+From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
+
+From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe.
+
+From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+Typical Setup ->
+Launch Configuration Wizard (after install) ->
+Standard Configuration ->
+Username: root
+Password: root
+
+Open IIS as an Admin
+
+Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
+
+Reload IIS (Open IIS, Stop and Start the server)
+
+Install osTicket v1.15.8
+From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
+Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
+
+Reload IIS (Open IIS, Stop and Start the server)
+
+Go to sites -> Default -> osTicket
+On the right, click “Browse *:80”
+
+Note that some extensions are not enabled
+Go back to IIS, sites -> Default -> osTicket
+Double-click PHP Manager
+Click “Enable or disable an extension”
+Enable: php_imap.dll
+Enable: php_intl.dll
+Enable: php_opcache.dll
+Refresh the osTicket site in your browser, observe the changes
+
+Rename: ost-config.php
+From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+Assign Permissions: ost-config.php
+Disable inheritance -> Remove All
+New Permissions -> Everyone -> All
+
+Continue Setting up osTicket in the browser (click Continue)
+Name Helpdesk
+Default email (receives email from customers)
+
+From the “osTicket-Installation-Files” folder, install HeidiSQL.
+Open Heidi SQL
+Create a new session, root/root
+Connect to the session
+Create a database called “osTicket”
+
+Continue Setting up osTicket in the browser
+MySQL Database: osTicket
+MySQL Username: root
+MySQL Password: root
+Click “Install Now!”
+
+Congratulations, hopefully it is installed with no errors!
+Browse to your help desk login page: http://localhost/osTicket/scp/login.php
+
+End Users osTicket URL:
+http://localhost/osTicket/ 
+

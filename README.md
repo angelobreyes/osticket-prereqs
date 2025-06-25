@@ -180,15 +180,53 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 
  - From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 
+![image](https://github.com/user-attachments/assets/74487822-9820-4da6-81c1-32812257e65c)
+
+<br />
+
+- Within PHP Manager setup, click next > click I agree then next > wait for installion to finish then click close
+
+![image](https://github.com/user-attachments/assets/499fe4d1-9aa8-4fb1-999c-cf2b5100861c)
+
+<br />
+
+<h3>5. Install Rewrite Module</h3>
+
+ - From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi)
+
+![image](https://github.com/user-attachments/assets/ec71cc91-c322-4e2b-a9b5-a14f50e25882)
+
+<br />
+
+ - Within the Rewrite Module setup, click I accept the terms > install > finish
+
+![image](https://github.com/user-attachments/assets/98010e9b-5324-472b-ac46-f0dc2452e9ea)
+
+![image](https://github.com/user-attachments/assets/fb843dd4-93c6-402d-ace4-3fbab4b942cf)
+
+<br />
+
+<h3>6. Extract PHP 7.3.8 folder into C:\PHP folder</h3>
+
+  - Create the directory C:\PHP
+ 
+    - To create this, go to file explorer (a folder icon on your taskbar) and click
+
+    - Within file explorer, click This PC > click Windows (C:) drive > right click on any blank space > hover to new > click folder > name folder PHP
 
 
+![image](https://github.com/user-attachments/assets/343781ea-5bc4-4947-8b0d-7d6fc5ce489a)
+ 
+![image](https://github.com/user-attachments/assets/63759198-8e6f-48cc-b0da-8b2cb011aca6)
 
+![image](https://github.com/user-attachments/assets/d69639b7-bc81-48d8-b7ff-14b16466dc58)
 
+![image](https://github.com/user-attachments/assets/95d76010-ceca-4efb-be7d-fb6cdbbb119f)
 
+<br />
 
-From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi)
+  
 
-Create the directory C:\PHP
 
 From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
 

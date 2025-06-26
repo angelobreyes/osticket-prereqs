@@ -493,8 +493,6 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 
 ![image](https://github.com/user-attachments/assets/c3e7cb9e-5da3-47e2-8392-483d8fbd6d3a)
 
-![image](https://github.com/user-attachments/assets/1575da3f-ccb4-4b0b-b637-7f65812cfd2e)
-
 ![image](https://github.com/user-attachments/assets/09dc6dd0-9513-463f-a9a3-7fdb370f1f95)
  
  

@@ -438,7 +438,7 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 
 
   - New Permissions -> Everyone -> All
-      - Click Add > Select a Principal > Type everyone > click Check Names > click OK
+      - Click Add > Select a Principal > Type everyone > click Check Names > click OK > click OK > click Apply then OK
 
 ![image](https://github.com/user-attachments/assets/cbc36418-17a1-483f-9fa5-32b1bd753e9f)
 
@@ -446,28 +446,105 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 
 ![image](https://github.com/user-attachments/assets/c138b2ca-4fac-41e6-a83c-bb1f0f900a0c)
 
+![image](https://github.com/user-attachments/assets/0eed6612-7e0c-4ce1-9647-322c7c881915)
+
 <br />
 
-<h3>11. Continue Setting up osTicket in the browser (click Continue)</h3>
+<h3>11. Continue Setting up osTicket in the browser</h3>
 
-Name Helpdesk
-Default email (receives email from customers)
+   - Click Continue
 
-From the “osTicket-Installation-Files” folder, install HeidiSQL.
-Open Heidi SQL
-Create a new session, root/root
-Connect to the session
-Create a database called “osTicket”
+![image](https://github.com/user-attachments/assets/212d19b0-4a2e-407c-8351-e3be4d7de479)
 
-Continue Setting up osTicket in the browser
-MySQL Database: osTicket
-MySQL Username: root
-MySQL Password: root
-Click “Install Now!”
+<br />
 
-Congratulations, hopefully it is installed with no errors!
-Browse to your help desk login page: http://localhost/osTicket/scp/login.php
 
-End Users osTicket URL:
-http://localhost/osTicket/ 
+  - Name Helpdesk > Name Default email (receives email from customers) > leave Database Settings for now
+     
+     * You can fill/name these to your preference
+
+![image](https://github.com/user-attachments/assets/99128215-d619-4348-bfee-a1fd132979c8)
+
+<br />
+
+<h3>12. Install HeidiSQL</h3>
+
+ - From the “osTicket-Installation-Files” folder, install HeidiSQL.
+    
+     - Double click Heidi SQL > click I accept then Next > click Next > click Next > click Next > click Install then Finish
+
+![image](https://github.com/user-attachments/assets/47a1dc7e-aca5-4790-9ed3-b33564d53439)
+   
+![image](https://github.com/user-attachments/assets/33155605-136d-4fc5-b36b-a566d5a93db3)
+     
+![image](https://github.com/user-attachments/assets/070e860f-764a-4488-84a1-a4a0f21ce8e1)
+
+![image](https://github.com/user-attachments/assets/f3bd628f-3dde-4063-a4d0-ca0ad9f7db44)
+
+![image](https://github.com/user-attachments/assets/d8ec4a34-e692-4838-8147-fbd3872e1566)
+
+![image](https://github.com/user-attachments/assets/25883a68-49da-491e-a158-b8b9a5d8fcad)
+
+<br />
+
+ - Within HeidiSQL:
+ 
+   - Click New > Click Session in root folder > type root in password then click Open
+
+![image](https://github.com/user-attachments/assets/c3e7cb9e-5da3-47e2-8392-483d8fbd6d3a)
+
+![image](https://github.com/user-attachments/assets/1575da3f-ccb4-4b0b-b637-7f65812cfd2e)
+
+![image](https://github.com/user-attachments/assets/09dc6dd0-9513-463f-a9a3-7fdb370f1f95)
+ 
+ 
+   - Create a database called “osTicket”
+
+     - right click on blank space > hover on Create New > Click Database
+
+![image](https://github.com/user-attachments/assets/d142a2db-a923-4103-bb99-8e4b24c5f078)
+
+![image](https://github.com/user-attachments/assets/c6ca57bb-acf6-4db1-a44b-f37debbf2dce)
+
+![image](https://github.com/user-attachments/assets/8e71fc13-471c-4cf0-8cbf-4f9a5c948281)
+
+
+<br />
+
+<h3>13. Continue Setting up osTicket in the browser</h3>
+ 
+ - Go back osTicket Setup and fill in the remaining fields (Database Settings)
+
+    - MySQL Database: osTicket
+    - MySQL Username: root
+    - MySQL Password: root
+    - Click “Install Now!”
+  
+ ![image](https://github.com/user-attachments/assets/6eadc758-d80b-4846-b683-5799ee6b128d)
+
+ <br />
+
+ ![image](https://github.com/user-attachments/assets/60d7b374-7ea8-4933-99f7-597cf35e59a1)
+
+<br />
+
+<h2> Congratulations, osTicket is now installed! </h2>
+
+<br />
+
+<h3>Browse to your help desk login page: http://localhost/osTicket/scp/login.php</h3>
+
+![image](https://github.com/user-attachments/assets/8988c223-eff4-417c-b374-b7c70550c271)
+
+<br />
+
+<h2>End Users osTicket URL:http://localhost/osTicket/</h2>
+
+![image](https://github.com/user-attachments/assets/8c93ad45-e52a-4d26-8ab4-50650b222432)
+
+<br />
+
+
+
+
 

@@ -528,7 +528,7 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 
 <br />
 
-<h2> Congratulations, osTicket is now installed! </h2>
+<h2>Congratulations, osTicket is now installed!</h2>
 
 <br />
 
@@ -538,13 +538,8 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 
 <br />
 
-<h2>End Users osTicket URL:http://localhost/osTicket/</h2>
+<h4>End Users osTicket URL:http://localhost/osTicket/</h4>
 
 ![image](https://github.com/user-attachments/assets/8c93ad45-e52a-4d26-8ab4-50650b222432)
 
 <br />
-
-
-
-
-

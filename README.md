@@ -81,13 +81,13 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 
 <h3>2. Log in to your VM using Remote Desktop</h3>
 
- - To open Remote Desktop, press Windows Key or click on the start button , type Remote Desktop and click Remote Desktop Connections.
+ - To open Remote Desktop, press Windows Key or click on the start button , type Remote Desktop and click Remote Desktop Connection.
 
 ![image](https://github.com/user-attachments/assets/bb37d1ab-456a-4fea-af52-66b6a38cfecd)
 
 <br />
 
-- Once you open Remote Desktop Connections, you will need to fill in the IP address of your VM.
+- Once you open Remote Desktop Connection, you will need to fill in the IP address of your VM.
 
 ![image](https://github.com/user-attachments/assets/1675bf49-1db2-42f0-9cb9-a4c9e1aa5241)
 
@@ -100,7 +100,7 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 
 <br />
 
- - You can find your VM's IP address two ways. Either way, copy the IP address and paste it onto Remote Desktop Connections.
+ - You can find your VM's IP address two ways. Either way, copy the IP address and paste it onto Remote Desktop Connection.
     - The first picture will show you where if you clicked Virtual Machines.
     - The second picture will show you if you clicked on your VM listed on the Azure Portal.
 
@@ -291,41 +291,165 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 
 <br />
 
+<h3>9. Register PHP from within IIS</h3>
+
+ - Open Internet Information Services as an Administrator
+    
+    - Press windows key or click start button and type IIS and run as administrator
+
+![image](https://github.com/user-attachments/assets/7f6e4212-c1f0-494d-a9f5-8aac10ee7f16)
 
 
-Open IIS as an Admin
+ - Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
 
-Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
+    - Look for PHP Manager and double click to open > click Register new PHP version > click three dots to browse > open PHP folder > select and open php-cgi
 
-Reload IIS (Open IIS, Stop and Start the server)
+![image](https://github.com/user-attachments/assets/14b9c55e-bd93-4f0b-860d-b2f367649969)
 
-Install osTicket v1.15.8
-From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
-Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
+![image](https://github.com/user-attachments/assets/0b06378d-09a9-4abe-978a-447694c3a579)
 
-Reload IIS (Open IIS, Stop and Start the server)
+![image](https://github.com/user-attachments/assets/c3bf1a08-2ca6-46bf-9e91-01e5969baeaf)
 
-Go to sites -> Default -> osTicket
-On the right, click “Browse *:80”
+![image](https://github.com/user-attachments/assets/bb1f7031-5050-4165-a704-18fec190afa0)
 
-Note that some extensions are not enabled
-Go back to IIS, sites -> Default -> osTicket
-Double-click PHP Manager
-Click “Enable or disable an extension”
-Enable: php_imap.dll
-Enable: php_intl.dll
-Enable: php_opcache.dll
-Refresh the osTicket site in your browser, observe the changes
+![image](https://github.com/user-attachments/assets/0e3aa7c0-453b-4399-8d70-b3f26a441dcb)
 
-Rename: ost-config.php
-From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
-To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
-Assign Permissions: ost-config.php
-Disable inheritance -> Remove All
-New Permissions -> Everyone -> All
+ - Click OK to register PHP
 
-Continue Setting up osTicket in the browser (click Continue)
+![image](https://github.com/user-attachments/assets/c91b33ba-c3dc-44d8-9db5-e2b57b5aff78)
+
+
+ - Reload IIS (Open IIS, Stop and Start the server)
+
+   - Click left arrow on the top left corner of PHP manager > click Stop > click Start
+
+![image](https://github.com/user-attachments/assets/58e88c93-4ce0-490f-8dcc-b9444675e091)
+
+![image](https://github.com/user-attachments/assets/65bc7802-cca7-45ee-998c-1686fab66b41)
+
+![image](https://github.com/user-attachments/assets/bd83c28c-70fc-41d0-881e-0aa8726712ce)
+
+<br />
+
+<h3>10. Install osTicket v1.15.8</h3>
+
+ - From the “osTicket-Installation-Files” folder, extract “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
+    
+    -  Go to osTicket-Installation Files > right click on osTicket-v1.15.8 zip and choose Extract All > click Extract 
+
+![image](https://github.com/user-attachments/assets/33ef6f0b-13ad-4595-803e-a95353275cb6)
+
+![image](https://github.com/user-attachments/assets/e89fb83e-830f-4f4a-83ad-2c55ad6661fe)
+
+![image](https://github.com/user-attachments/assets/9ecfdfe7-0f54-4543-aba5-2f9a882832e2)
+
+   - After extracting, right click on upload folder and click copy > go to This PC > go to Windows C: > go to inetpub > right click on wwwroot and paste
+
+![image](https://github.com/user-attachments/assets/34f1817c-d768-4141-81e9-0ddb53a45828)
+
+![image](https://github.com/user-attachments/assets/48b96fe8-174d-4793-8ca7-30b7fb1ab7a4)
+
+![image](https://github.com/user-attachments/assets/d7e5d2af-7261-4de9-9f55-618bb30ac9c6)
+
+![image](https://github.com/user-attachments/assets/6c24a624-00f5-48ef-a15e-4441fabfd8b6)
+
+  
+  - Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
+     
+     - right click on upload folder and choose rename > type osTicket
+
+![image](https://github.com/user-attachments/assets/1f7866e3-cfe6-4bcb-a78f-dc6cf0cfc60b)
+
+![image](https://github.com/user-attachments/assets/d6abf635-42dc-4e17-a9aa-cfa5bfef2b81)
+
+
+ - Reload IIS (Open IIS, Stop and Start the server)
+
+![image](https://github.com/user-attachments/assets/33be69ef-dfc4-4ea6-af4f-bc50fdf8669d)
+
+![image](https://github.com/user-attachments/assets/2c84eeb0-eca8-4913-bbca-3e936f7dc785)
+
+
+ - Go to sites -> Default -> click osTicket
+
+![image](https://github.com/user-attachments/assets/658b7de1-44ee-4d44-8302-fb136d9069fc)
+
+ - On the right, click “Browse *:80”
+
+![image](https://github.com/user-attachments/assets/d301ac38-0f80-47dd-ba38-d1cc6a4d06b1)
+
+ - That should open your browser and go to a page named "localhost/osTicket/setup
+    
+    * Note that some extensions are not enabled
+
+![image](https://github.com/user-attachments/assets/ee34c01a-d86c-4fbb-9c85-617b310dab34)
+
+
+ - Go back to IIS, sites -> Default -> osTicket
+
+    - Double-click PHP Manager > Click “Enable or disable an extension”
+
+      - Enable: php_imap.dll
+      - Enable: php_intl.dll
+      - Enable: php_opcache.dll
+      - Refresh the osTicket site in your browser, observe the changes
+
+![image](https://github.com/user-attachments/assets/6330cd63-4431-4362-aacb-d8324bfa1139)
+
+![image](https://github.com/user-attachments/assets/c0391caa-792d-47c1-aa53-be044080ca69)
+
+![image](https://github.com/user-attachments/assets/8432927a-ad89-4d5c-bcf4-89a8438bdb4d)
+
+![image](https://github.com/user-attachments/assets/34c8539b-2d7c-498c-ac60-0fc41fb43805)
+
+![image](https://github.com/user-attachments/assets/316d6f31-c562-48a5-976f-c526c5cf4026)
+
+![image](https://github.com/user-attachments/assets/d2781362-32b0-4a3f-ba7d-a73c8b13019b)
+
+![image](https://github.com/user-attachments/assets/212d19b0-4a2e-407c-8351-e3be4d7de479)
+
+ - Rename: ost-config.php
+
+    From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+    To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+![image](https://github.com/user-attachments/assets/b5840b2c-e651-4acd-899a-6507ea2d189c)
+
+![image](https://github.com/user-attachments/assets/ec1a10ca-a063-418b-a6fb-748f51273f59)
+
+![image](https://github.com/user-attachments/assets/fea2f29f-de3b-43e7-a0a5-87ae6f011048)
+
+![image](https://github.com/user-attachments/assets/df9aacf7-0d55-4e59-8861-ac7d603a0490)
+
+  - Assign Permissions: ost-config.php
+
+   - right click on ost-config.php and click Properties > go to Security and click Advanced
+
+![image](https://github.com/user-attachments/assets/bc38d4d4-53d9-4ed4-a0ee-8dade2e84439)
+
+![image](https://github.com/user-attachments/assets/e69260a8-a663-4c42-9874-bc0b7f0e90b1)
+
+  - Disable inheritance -> Remove All 
+
+![image](https://github.com/user-attachments/assets/22eb61ed-7383-472f-a410-0adb9e3084a8)
+
+![image](https://github.com/user-attachments/assets/d14b5977-7ca7-4e23-aeb0-f5c93b05e639)
+
+
+  - New Permissions -> Everyone -> All
+      - Click Add > Select a Principal > Type everyone > click Check Names > click OK
+
+![image](https://github.com/user-attachments/assets/cbc36418-17a1-483f-9fa5-32b1bd753e9f)
+
+![image](https://github.com/user-attachments/assets/d52464c8-90f3-445e-94b6-520bba0313df)
+
+![image](https://github.com/user-attachments/assets/c138b2ca-4fac-41e6-a83c-bb1f0f900a0c)
+
+<br />
+
+<h3>11. Continue Setting up osTicket in the browser (click Continue)</h3>
+
 Name Helpdesk
 Default email (receives email from customers)
 

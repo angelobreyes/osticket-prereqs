@@ -450,7 +450,7 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 
 <br />
 
-<h3>11. Continue Setting up osTicket in the browser</h3>
+<h3>11. Continue setting up osTicket in the browser</h3>
 
    - Click Continue
 

@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-Welcome to this osTicket tutorial! Here, we will outline the prerequisites and installation of the open-source help desk ticketing system. We will use Azure for this so if you don't have Microsoft Azure yet, go check https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account for a free account with $200 credit so you can start.<br />
+Welcome to this osTicket tutorial! Here, we will outline the prerequisites and installation of the open-source help desk ticketing system. We will use Azure for this so if you don't have Microsoft Azure yet, go check <a href="https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account">Azure</a> for a free account with $200 credit so you can start.<br />
 
 
 <h2>Environments and Technologies Used</h2>

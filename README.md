@@ -520,13 +520,9 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
   
  ![image](https://github.com/user-attachments/assets/6eadc758-d80b-4846-b683-5799ee6b128d)
 
- <br />
-
- ![image](https://github.com/user-attachments/assets/60d7b374-7ea8-4933-99f7-597cf35e59a1)
-
 <br />
 
-<h2>Congratulations, osTicket is now installed!</h2>
+ ![image](https://github.com/user-attachments/assets/60d7b374-7ea8-4933-99f7-597cf35e59a1)
 
 <br />
 
@@ -541,3 +537,5 @@ Welcome to this osTicket tutorial! Here, we will outline the prerequisites and i
 ![image](https://github.com/user-attachments/assets/8c93ad45-e52a-4d26-8ab4-50650b222432)
 
 <br />
+
+<h2>Next is <a href="https://github.com/angelobreyes/post-install-config">post-installation configuration.</a></h2>
